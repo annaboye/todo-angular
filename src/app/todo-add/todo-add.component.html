@@ -1,0 +1,10 @@
+<form (ngSubmit)="addTodo()" #myForm="ngForm">
+  <input
+    type="text"
+    [(ngModel)]="newTodoText"
+    name="newTodo"
+    id="newTodo"
+    required
+  />
+  <button type="submit" [disabled]="myForm.invalid">Spara</button>
+</form>
