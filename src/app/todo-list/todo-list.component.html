@@ -1,6 +1,9 @@
 <div>
-  <app-todo-add (todoAdded)="addTodo($event)"></app-todo-add>
+ 
+  <app-todo-add class="todoadd" (todoAdded)="addTodo($event)"></app-todo-add>
+  <H2>My todos:</H2>
   <app-todo-show
+    class="todoshow"
     *ngFor="let todo of todos"
     [todo]="todo"
     (todoToggle)="handleToggle(todo)"
