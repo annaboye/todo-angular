@@ -1,7 +1,11 @@
 app-root{
     height: 100vh;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-family: 'Oswald', sans-serif;
+    color: #356859;
+}
+body{
+    background-color: #FFFBE6;
 }

@@ -1,0 +1,14 @@
+<div class="container">
+  <h1>Create a todolist!</h1>
+  <app-todo-add class="todoadd" (todoAdded)="addTodo($event)"></app-todo-add>
+
+  <H2>My todos:</H2>
+  <div class="todoshow">
+    <app-todo-show
+      *ngFor="let todo of todos"
+      [todo]="todo"
+      (todoToggle)="handleToggle(todo)"
+      (todoRemove)="removeTodo(todo)"
+    ></app-todo-show>
+  </div>
+</div>

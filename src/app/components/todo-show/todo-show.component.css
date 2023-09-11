@@ -1,0 +1,16 @@
+.btn-remove{
+    background-color: #fd5523;
+    ;
+    border-radius: 5px;
+    border: none;
+ 
+  
+}
+
+.todo{
+    background-color: #b9e4c9;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

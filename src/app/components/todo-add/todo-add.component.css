@@ -1,0 +1,25 @@
+.save-btn{
+    background-color: #00907E;
+    color: white;
+    border-radius: 5px;
+  margin: 5px;
+  border: none;
+
+}
+
+.save-btn:hover{
+    cursor: pointer;
+}
+
+form{
+    display: flex;
+    height: 30px;
+    width: 200px;
+    justify-content: space-between;
+  
+}
+
+input{
+    padding: 2px;
+    
+}

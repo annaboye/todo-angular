@@ -1,0 +1,7 @@
+<div class="todo">
+  <div>
+    {{ todo.text }}
+    <input type="checkbox" [checked]="todo.done" (change)="handleToggle()" />
+  </div>
+  <button (click)="removeTodo()" class="btn-remove">remove</button>
+</div>
